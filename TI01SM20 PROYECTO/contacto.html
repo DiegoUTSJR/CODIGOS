@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/reset.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
+                        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
+                        crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Contactos</title>
+</head>
+<body>
+    <header id="headernav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="index.html">
+                  <img src="images/logo.png" width="150" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                  <a class="nav-link link-menu" aria-current="page" href="index.html">Inicio</a>
+                  <a class="nav-link link-menu" href="producto.html">Producto</a>
+                  <a class="nav-link active link-menu" href="contacto.html">Contacto</a>                  
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <section id="contacto">
+		<div class="container">
+			<div class="row justify-content-md-center espacio-row">
+				<div class="col-md-6">
+					<h1>¡Contactanos!</h1>
+					<p>¿Necesitas ayuda?, no te preocupes ponte en contacto con nosotros y uno de nuestros administrativos te atendera con gusto.</p>
+				</div>				
+			</div>	
+			<div class="row justify-content-md-center espacio-row">
+				<div class="col-md-6">
+					<form id="form_contacto" method="POST">
+						<div class="form-group">
+							<input type="text" class="form-control" id="nombre_contacto" name="nombre_contacto" placeholder="Nombre completo">
+						</div>	
+					  	<div class="form-group">
+					    	<input type="email" class="form-control" id="correo_contacto" name="correo_contacto" placeholder="Correo electrónico o numero telefonico">
+					  	</div>
+					  	<div class="form-group">
+					   		<input type="text" class="form-control" id="asunto_contacto" name="asunto_contacto" placeholder="Numero de serie de tu smartwatch">
+					  	</div>
+					  	<div class="form-group">
+					    	<textarea class="form-control" id="mensaje_contacto" name="mensaje_contacto" rows="5" placeholder="Cuentanos los detalles"></textarea>
+					  	</div>
+					  	
+					  	<button id="btnComentarios" class="btn btn-primary">Enviar</button>
+						
+					</form>
+				</div>
+				
+			</div>
+		</div>
+	</section> 
+
+
+    <footer id="pie">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-md-8">
+                    <p>
+                        SMARTWATCH - El poder en tu mano
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
